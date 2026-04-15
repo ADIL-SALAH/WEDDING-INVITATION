@@ -48,7 +48,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.8, ease: "easeOut" }}
-          className="text-xs md:text-[20px] tracking-[0.5em] uppercase mb-8 font-medium text-lux-gold drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]"
+          className="text-xs md:text-[50px] tracking-[0.5em] uppercase mb-8 font-medium text-lux-gold drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]"
         >
           بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
         </motion.p>

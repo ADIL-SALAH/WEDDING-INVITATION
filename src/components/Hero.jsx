@@ -48,6 +48,14 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.8, ease: "easeOut" }}
+          className="text-xs md:text-lg tracking-[0.5em] uppercase mb-8 font-medium text-lux-gold drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]"
+        >
+          بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </motion.p>
+        <motion.p 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5, delay: 0.8, ease: "easeOut" }}
           className="text-xs md:text-sm tracking-[0.5em] uppercase mb-8 font-medium text-lux-gold drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]"
         >
           We Invite You To Celebrate
@@ -59,7 +67,7 @@ export default function Hero() {
           transition={{ duration: 2, delay: 1, ease: "easeOut" }}
           className="text-7xl md:text-9xl font-serif mb-6 font-medium text-gradient-gold drop-shadow-2xl py-4"
         >
-          Salah <span className="mx-2 md:mx-6 text-ivory/80 italic font-light">&</span> Fida
+          Adil <span className="mx-2 md:mx-6 text-ivory/80 italic font-light">&</span> Fida
         </motion.h1>
 
         <motion.p 
@@ -79,9 +87,9 @@ export default function Hero() {
         style={{ opacity: opacityText }}
         className="absolute bottom-16 z-10 flex flex-col items-center text-ivory/80"
       >
-        <p className="text-[10px] font-medium tracking-[0.3em] uppercase mb-6 text-lux-gold">
+        {/* <p className="text-[10px] font-medium tracking-[0.3em] uppercase mb-6 text-lux-gold">
           Scroll to Begin 💍
-        </p>
+        </p> */}
         <motion.div 
           animate={{ y: [0, 15, 0], opacity: [0.2, 1, 0.2] }}
           transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut" }}

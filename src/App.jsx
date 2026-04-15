@@ -10,9 +10,9 @@ function App() {
   return (
     <main className="font-sans antialiased w-full min-h-screen bg-ivory overflow-x-hidden selection:bg-soft-gold/30 selection:text-dark-text">
       <Hero />
-      <Story />
-      <Countdown />
+      {/* <Story /> */}
       <Details />
+      <Countdown />
       <Gallery />
       <ActionButtons />
       <Footer />

@@ -16,7 +16,7 @@ export default function ActionButtons() {
   };
 
   const googleCalendarUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Salah+%26+Fida+Wedding&dates=20260823T043000Z/20260823T103000Z&details=Join+us+to+celebrate+the+wedding+of+Salah+%26+Fida!&location=Hayath+Auditorium%2C+Cherumukku%2C+Tirurangadi";
-  const whatsappUrl = "https://wa.me/918714157908?text=Hi%20%F0%9F%98%8A%20So%20happy%20for%20you%20both%20%F0%9F%92%8D%20Can%E2%80%99t%20wait%20for%20your%20big%20day%20%E2%9D%A4%EF%B8%8F";
+  const whatsappUrl = "https://wa.me/918714157908?text=Hi\nSo%20happy%20for%20you%20both%20Can%E2%80%99t%20wait%20for%20your%20big%20day%20%E2%9D%A4%EF%B8%8F";
 
   return (
     <section className="py-32 px-6 md:px-12 bg-ivory text-center relative">

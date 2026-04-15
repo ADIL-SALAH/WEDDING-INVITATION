@@ -14,9 +14,11 @@ export default function ActionButtons() {
     hidden: { opacity: 0, scale: 0.95, y: 20 },
     visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
   };
-
-  const googleCalendarUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Salah+%26+Fida+Wedding&dates=20260823T043000Z/20260823T103000Z&details=Join+us+to+celebrate+the+wedding+of+Salah+%26+Fida!&location=Hayath+Auditorium%2C+Cherumukku%2C+Tirurangadi";
-  const whatsappUrl = "https://wa.me/918714157908?text=Hi\nSo%20happy%20for%20you%20both%20Can%E2%80%99t%20wait%20for%20your%20big%20day%20%E2%9D%A4%EF%B8%8F";
+  const message = `Barakallahu lakuma! 🤍
+May Allah bless your marriage always.`;
+  // const googleCalendarUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Salah+%26+Fida+Wedding&dates=20260823T043000Z/20260823T103000Z&details=Join+us+to+celebrate+the+wedding+of+Salah+%26+Fida!&location=Hayath+Auditorium%2C+Cherumukku%2C+Tirurangadi";
+const googleCalendarUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Adil+%26+Fida+Wedding&dates=20260821T043000Z/20260823T103000Z&details=Join+us+to+celebrate+the+wedding+of+Adil+%26+Fida!&location=Hayath+Auditorium%2C+Cherumukku%2C+Tirurangadi&recur=RRULE:FREQ=DAILY;COUNT=3";  
+const whatsappUrl = `https://wa.me/918714157908?text=${encodeURIComponent(message)}`;
 
   return (
     <section className="py-32 px-6 md:px-12 bg-ivory text-center relative">
@@ -38,7 +40,7 @@ export default function ActionButtons() {
           <span>Save the Date</span>
         </motion.a>
 
-        <motion.a 
+        {/* <motion.a 
           variants={itemVariants}
           href={googleCalendarUrl}
           target="_blank"
@@ -47,7 +49,7 @@ export default function ActionButtons() {
         >
           <CalendarPlus className="w-5 h-5 transition-transform group-hover:scale-110" />
           <span>Add to Calendar</span>
-        </motion.a>
+        </motion.a> */}
 
         <motion.a 
           variants={itemVariants}

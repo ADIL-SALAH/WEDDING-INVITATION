@@ -20,7 +20,7 @@ export default function Gallery() {
     {
       src: "5.jpeg",
       alt: "Wedding aesthetic 4",
-      className: "col-span-2 row-span-1"
+      className: "col-span-2 row-span-2"
     }
   ];
 

@@ -8,7 +8,7 @@ export default function Gallery() {
       className: "col-span-2 row-span-2"
     },
     {
-      src: "10.jpeg",
+      src: "15.jpeg",
       alt: "Wedding aesthetic 2",
       className: "col-span-1 row-span-1"
     },
@@ -18,7 +18,7 @@ export default function Gallery() {
       className: "col-span-1 row-span-1"
     },
     {
-      src: "15.jpeg",
+      src: "10.jpeg",
       alt: "Wedding aesthetic 4",
       className: "col-span-2 row-span-2"
     }

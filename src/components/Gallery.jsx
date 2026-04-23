@@ -3,22 +3,22 @@ import { motion } from 'framer-motion';
 export default function Gallery() {
   const images = [
     {
-      src: "1.jpeg",
+      src: "11.jpeg",
       alt: "Wedding aesthetic 1",
       className: "col-span-2 row-span-2"
     },
     {
-      src: "3.jpeg",
+      src: "10.jpeg",
       alt: "Wedding aesthetic 2",
       className: "col-span-1 row-span-1"
     },
     {
-      src: "4.jpeg",
+      src: "15.jpeg",
       alt: "Wedding aesthetic 3",
       className: "col-span-1 row-span-1"
     },
     {
-      src: "5.jpeg",
+      src: "14.jpeg",
       alt: "Wedding aesthetic 4",
       className: "col-span-2 row-span-1"
     }
